@@ -4,7 +4,14 @@
     min-height: 5rem;
 }
 
+#header__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .navbar form {
+    margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 

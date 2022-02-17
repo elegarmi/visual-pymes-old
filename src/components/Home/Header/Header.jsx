@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "./Logo.png";
+import NavMenu from "./NavMenu/NavMenu";
 import Searchbar from "./Searchbar/Searchbar";
 
 import "./Header.css";
@@ -18,7 +19,10 @@ const Header = () => {
           />{' '}
         Visual Pymes
         </Navbar.Brand>
-        <Searchbar />
+        <div id="header__navigation">
+          <NavMenu />
+          <Searchbar />
+        </div>
     </Navbar>
   );
 };
