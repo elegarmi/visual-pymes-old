@@ -16,5 +16,7 @@
 }
 
 .navbar form svg {
+    height: 2rem;
+    width: 2rem;
     margin: -1.5rem;
 }
