@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { BsSearch } from "react-icons/bs";
+
 const Searchbar = (props) => {
   const { onChange } = props;
   const [name, setName] = useState("");
@@ -12,12 +14,14 @@ const Searchbar = (props) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        className="nav__search"
         type="text"
         placeholder="buscar"
         value={name}
         onChange={(e) => setName(e.target.value)}
       ></input>
-      <input type="submit"></input>
+      <BsSearch fill="#FFDA1A" stroke-width="0.2" height="2em" width="2em" />
+      {/* <input type="submit"></input> */}
     </form>
   );
 };
