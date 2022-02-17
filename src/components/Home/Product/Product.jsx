@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Product.css";
 const Product = (props) => {
-  const { name, image, price } = props;
+  const { id, name, image, price } = props;
   return (
     <div className="card">
       <img className="card__img" src={image} alt={name} />
