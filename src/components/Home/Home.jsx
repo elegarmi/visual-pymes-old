@@ -2,7 +2,6 @@ import React from "react";
 import { products } from "./data.js";
 import Product from "./Product/Product.jsx";
 import "./Home.css";
-import Create from "./Product/Create.jsx";
 
 const Home = () => {
   return (
