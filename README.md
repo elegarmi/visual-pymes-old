@@ -15,25 +15,30 @@ Emprendedores a tu alcance
 
 ## Available Scripts
 
-### npm install
+## Project setup, install required dependencies
+```
+npm install
+```
 
-Install required dependencies
+## Runs the app in the development mode
+```
+npm start
+```
 
-### npm start
+## React router dom v6
+```
+npm install react-router-dom@6
+```
 
-Runs the app in the development mode.
+## Launches the test runner in the interactive watch mode
+```
+npm test
+```
 
-### npm install react-router-dom@6
-
-React router dom v6
-
-### npm test
-
-Launches the test runner in the interactive watch mode.
-
-### npm run build
-
-Builds the app for production to the build folder.
+## Builds the app for production to the build folder
+```
+npm run build
+```
 
 ### By
 

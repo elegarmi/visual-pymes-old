@@ -3,6 +3,7 @@ import { products } from "./data.js";
 import Product from "./Product/Product.jsx";
 /* import Searchbar from "./Searchbar/Searchbar"; */
 import "./Home.css";
+import Create from "./Product/Create.jsx";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
           />
         ))}
       </article>
+          <Create />
     </div>
   );
 };
