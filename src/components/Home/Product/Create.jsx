@@ -8,23 +8,25 @@ import "./Create.css";
 const Create = () => {
     return (
         < Form >
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-                </Form.Text>
+            <h5>Crear nuevo anuncio</h5>
+            <Form.Group className="mb-3" controlId="formProductName">
+                <Form.Control type="text" placeholder="Nombre del producto" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
+            <Form.Group className="mb-3" controlId="formPrice">
+                <Form.Control aria-label="Cuantía en euros (con coma antes de los decimales)" placeholder="Precio (0,00 €)" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+
+            <Form.Group className="mb-3" controlId="formDescription">
+                <Form.Control as="textarea" type="textarea" placeholder="Descripción" />
             </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formCheckbox">
+                <Form.Check type="checkbox" label="Acepto las condiciones de uso y la Protección de Datos" />
+            </Form.Group>
+
             <Button variant="primary" type="submit">
-                Submit
+                Crear
             </Button>
         </Form >
     );
