@@ -1,4 +1,4 @@
-form {
+.create__form {
     border: 1px solid #E5E5E5;
     padding: 1.5rem;
     border-radius: 15px;
@@ -6,23 +6,25 @@ form {
     width: 28rem;
 }
 
-form > * {
+.create__form > * {
     margin-bottom: 2rem;
 }
 
-#formProductName, #formPrice, #formDescription {
+.create__form #formProductName,
+.create__form #formPrice,
+.create__form #formDescription {
     text-align: center;
 }
 
-#formDescription {
+.create__form #formDescription {
     min-height: 8rem;
 }
 
-.form-check {
+.create__form .form-check {
     text-align: left;
 }
 
-button.btn {
+.create__form button.btn {
     background: var(--colorYellow);
     border: none;
     border-radius: 15px;
