@@ -10,20 +10,24 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 20%;
-    /* height: 22rem; */
-    /* overflow: hidden; */
+    width: 300px;
     background-color: white;
+    font-size: 1rem;
+
 }
 
-.card > * {
+.card__title {
+    font-size: 1.5rem;
+}
+
+.card>* {
     background: transparent;
 }
 
 .card__img {
     height: 14rem;
     width: 100%;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
     /* background-color: white; */
     object-fit: cover;
@@ -44,7 +48,7 @@
     /* background-color: white; */
 }
 
-.card__info > * {
+.card__info>* {
     margin-bottom: 0.5rem;
 }
 

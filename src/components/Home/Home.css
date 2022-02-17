@@ -8,11 +8,10 @@
 }
 
 .home__cards {
-    margin: 8rem 0 0 0;
     padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 8rem 6rem;
+    gap: 1em;
 }
