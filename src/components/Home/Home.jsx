@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useState, useEffect } from "react";
 import { products } from "./data.js";
 import Product from "./Product/Product.jsx";
 /* import Searchbar from "./Searchbar/Searchbar"; */
@@ -6,6 +6,25 @@ import "./Home.css";
 import Create from "./Product/Create.jsx";
 
 const Home = () => {
+  // const url = ''
+  // const [create, setCreate] = useState()
+  // const fetchApi = () =>{
+  //   const response = fetch (url)
+  //   console.log()
+  // }
+  // useEffect(() => {
+  //   fetchApi()
+  
+  //   return () => {
+      
+  //   }
+  // }, [])
+  
+
+
+
+
+
   return (
     <div className="home">
       {/*     <Searchbar  onChange={filterName}/> */}
