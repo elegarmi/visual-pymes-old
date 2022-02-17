@@ -7,7 +7,7 @@ import "./Create.css";
 
 const Create = () => {
     return (
-        < Form >
+        <Form className="create__form">
             <h5>Crear nuevo anuncio</h5>
             <Form.Group className="mb-3" controlId="formProductName">
                 <Form.Control type="text" placeholder="Nombre del producto" />
