@@ -1,17 +1,8 @@
-.header {
+.navbar {
     background: #ffffff;
-    height: 5rem;
-    width: 100%;
     padding: 0 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
-.header > * {
-    background: transparent;
-}
-
-.header__logo {
-    width: 100px;
-}
+/* .navbar form > * {
+    margin-bottom: 0;
+} */

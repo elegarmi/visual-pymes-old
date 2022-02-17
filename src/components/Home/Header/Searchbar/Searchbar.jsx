@@ -10,17 +10,15 @@ const Searchbar = (props) => {
     setName("");
   };
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="buscar"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        ></input>
-        <input type="submit"></input>
-      </form>
-    </div>
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        placeholder="buscar"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      ></input>
+      <input type="submit"></input>
+    </form>
   );
 };
 
