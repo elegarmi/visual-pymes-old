@@ -18,6 +18,7 @@ Emprendedores a tu alcance
 ## Project setup, install required dependencies
 ```
 npm install
+npm install react-icons --save
 ```
 
 ## Runs the app in the development mode

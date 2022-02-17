@@ -1,17 +1,25 @@
 import React from "react";
-import "./Header.css";
+import Navbar from "react-bootstrap/Navbar";
 import Logo from "./Logo.png";
 import Searchbar from "./Searchbar/Searchbar";
 
+import "./Header.css";
+
 const Header = () => {
   return (
-    <div className="header">
-      <img className="header__logo" src={Logo} alt="Logo" />
-      <h1>Visual Pymes </h1>
-      <nav>
+    <Navbar className="navbar navbar-expand navbar-light justify-content-between align-items-center">
+        <Navbar.Brand href="#home">
+          <img
+            alt="Visual Pymes logo"
+            src={Logo}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{' '}
+        Visual Pymes
+        </Navbar.Brand>
         <Searchbar />
-      </nav>
-    </div>
+    </Navbar>
   );
 };
 
